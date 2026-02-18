@@ -67,11 +67,17 @@ Map<String, Object> model;
 | Controller | つなぐ人  |
 
 ```
-@GetMapping("/hello")
-public String hello(Model model) {
-    model.addAttribute("message", "Hello, Thymeleaf!");
-    return "Hello";
+@Controller
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String hello(Model model) {
+        model.addAttribute("message", "Hello, Thymeleaf!");
+        return "Hello"; // templates/Hello.htmlを表示
+    }
+
 }
+
 
 ブラウザ → /hello にアクセス
         ↓
