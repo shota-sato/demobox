@@ -113,7 +113,7 @@ HTML が完成してブラウザへ
 | ---------------------------------------------------- | ----------------- |
 | xmlns                                                | XML namespace の宣言 |
 | th                                                   | これから使う接頭語         |
-| [http://www.thymeleaf.org](http://www.thymeleaf.org) | Thymeleafの名前空間    |
+| [http://www.thymeleaf.org](http://www.thymeleaf.org) | Thymeleafの名前空間  Thymeleaf の公式ホームページ |
 
 「th: というプレフィックスは Thymeleaf のものですよ」と宣言
 
