@@ -1,3 +1,15 @@
+# 起動方法
+```
+curl http://localhost:8080/hello
+curl -X GET http://localhost:8080/hello
+
+
+Hello World!
+```
+curl はデフォルトが GET  
+-X が「HTTPメソッド指定」のオプション
+
+
 # 学んだこと
 
 | 項目       | `@RestController`              | `@GetMapping`                   |
