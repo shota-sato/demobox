@@ -95,6 +95,26 @@ HTML が完成してブラウザへ
 ```
 
 
+## Thymeleaf
+```
+<span th:text="${message}">Hello</span>
+```
+| 部分         | 意味                 |
+| ---------- | ------------------ |
+| span       | 小さな表示用の箱           |
+| th:text    | Thymeleafの命令       |
+| ${message} | Modelの値            |
+| Hello      | デフォルト表示（テンプレート確認用） |
 
+```
+<html xmlns:th="http://www.thymeleaf.org">
+```
+| 部分                                                   | 意味                |
+| ---------------------------------------------------- | ----------------- |
+| xmlns                                                | XML namespace の宣言 |
+| th                                                   | これから使う接頭語         |
+| [http://www.thymeleaf.org](http://www.thymeleaf.org) | Thymeleafの名前空間    |
+
+「th: というプレフィックスは Thymeleaf のものですよ」と宣言
 
 
