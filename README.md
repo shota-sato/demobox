@@ -15,3 +15,23 @@ Java(TM) SE Runtime Environment (build 17.0.8+9-LTS-211)
 Java HotSpot(TM) 64-Bit Server VM (build 17.0.8+9-LTS-211, mixed mode, sharing)
 PS C:\Users\PC_User\Project\demobox>
 ```
+
+```
+git pull origin main --rebase
+
+
+GitHub(main)
+A --- B
+
+あなた(main)
+A --- C --- D
+
+merge すると「M」という合体コミットができ履歴が枝分かれする。
+A --- B ------- M
+      \       /
+       C --- D
+
+ebase するとあなたの C,D を一旦はがして、B の上に乗せ直す
+A --- B --- C' --- D'
+```
+GitHub(main)の最新状態を取り込んで、自分の変更をその上に乗せ直す
